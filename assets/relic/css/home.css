@@ -1,0 +1,73 @@
+/**
+  * MowBow - Account layout Stylesheet
+  * @author: Hayesha Somarathne <hayeshais@gmail.com> - http://thoughtsandideas.wordpress.com/
+  * @version: 1.0
+  * @date: 21 - 05 - 2012
+  *  
+  * @license: LGPL - http://www.gnu.org/licenses/lgpl.html
+  *
+ */
+
+#header {  }
+    #header-inner {  }
+    #header h1 { margin:0; padding: 5px 0 6px 15px; color: #444; border-bottom: 1px solid #D0D0D0;  font-size: 1.5em; float: left; }
+    #header #logo { float: left; display: block; width: auto; margin: 5px 0 5px 5px; }
+        
+#content { }
+    #content-inner { padding: 0 10px 5px 10px; }
+    #content p { line-height:1.4em; }
+    
+        #content-header { }
+            #content-header-inner { }
+                #content-header #breadcrumbs {  } 
+                    #content-header #breadcrumbs ul { padding: 0; margin: 5px 0; }
+                    #content-header #breadcrumbs ul li { display: inline; padding-left: 0; line-height: 16px; font-size: 11px;  }
+                    #content-header #breadcrumbs ul li a:link,
+                    #content-header #breadcrumbs ul li a:visited { line-height:1em; }
+                    #content-header #breadcrumbs ul li a:hover,
+                    #content-header #breadcrumbs ul li a:focus {  }
+                #content-header #content-title {  }
+                    #content-header #content-title .title { padding: 0; margin: 0; font-size: 1.75em; line-height: 1.333em;  }
+            
+        #content-area { min-height: 350px; }
+            #content-area-inner { }
+            #content-area h3 { margin-top: 15px; border-bottom: 1px solid #999; }
+            #content-area p { padding: 5px 0; text-align: justify; }
+            #content-area ul { padding-left: 5px; }
+            #content-area ul li { background: transparent; text-align: justify; margin: 3px 0; list-style: disc inside none; }
+            #content-area ul a { font-size: 12px; }
+	  
+
+        
+        #content-bottom { }
+            #content-bottom-inner { margin: 5px 0; }
+            
+            
+#sidebar-left {  }
+    #sidebar-left-inner { padding: 0 0 5px 10px; }
+    
+    #sidebar-left h2 { color: #555555; font-size: 1.25em; line-height: 1.333em; padding-bottom: 10px; }
+    #sidebar-left p { }
+    #sidebar-left ul { padding-left: 0; }
+    #sidebar-left ul li { background: transparent url(../images/icons.gif) no-repeat scroll 0 -141px; padding-left: 10px; line-height: 18px; }
+    
+    
+#sidebar-right { background-color: #F5F5DC; }
+    #sidebar-right-inner { padding: 0 10px 5px 0; }
+    #sidebar-left p { text-align: justify; }
+
+#footer {  }
+    #footer-inner { margin: 10px 0; }
+    #footer #copyright p { margin:0; padding: 0 10px; font-size: 12px; color: #333333; }
+    #footer #copyright p a:link,
+    #footer #copyright p a:visited { text-decoration: none; }
+    #footer #copyright p a:hover,
+    #footer #copyright p a:focus { text-decoration: underline; }
+
+    #footer #secondary ul { padding: 0; margin:0; }
+    #footer #secondary ul li { display: inline; padding: 5px 10px; border-right: 1px solid #aaa; line-height: 16px; font-size: 12px; }
+    #footer #secondary ul li a:link,
+    #footer #secondary ul li a:visited { line-height:1em; text-decoration: none; }
+    #footer #secondary ul li a:hover,
+    #footer #secondary ul li a:focus { text-decoration: underline; color: #000000; }
+    #footer #secondary ul li.last { border-right: none; }

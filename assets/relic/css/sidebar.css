@@ -1,0 +1,44 @@
+/**
+  * Mowbow Theme - Sidebar Stylesheet
+  * @author: Drupal Zen Theme
+  * @author: Hayesha Somarathne <hayeshais@gmail.com> - http://thoughtsandideas.wordpress.com/
+  * @version: 1.0
+  * @date: 21 - 05 - 2012
+  *  
+  * @license: LGPL - http://www.gnu.org/licenses/lgpl.html
+  *
+  */
+
+
+#sidebar-left {  }
+    #sidebar-left-inner { margin: 0 10px 0 0; }
+    #sidebar-left-inner h2 { margin: 0; padding: 10px 5px; font-weight: bold;  }
+	
+	  /* http://www.devinrolsen.com/pure-css-vertical-menu/ */
+	  #sidebar-left #sidebar-nav { font-size:0.9em; width: 175px; }
+	  #sidebar-left #sidebar-nav ul { margin:0px; padding:0px; }
+	  #sidebar-left #sidebar-nav li { list-style: none; padding-left: 0; }
+	  #sidebar-left #sidebar-nav ul.top-level { background-color: #666; }
+	  #sidebar-left #sidebar-nav ul.top-level li { border-bottom: #fff solid; border-top: #fff solid; border-width: 1px; }
+	  #sidebar-left #sidebar-nav a { color: #fff; cursor: pointer; display:block; height:auto; line-height: 25px; text-indent: 10px; text-decoration:none; width:100%; text-transform: uppercase; padding: 12px 0; }
+	  #sidebar-left #sidebar-nav a.active { background-color: #50B432; }
+	  #sidebar-left .sidebar-main #sidebar-nav a.active { background-color: #3366FF; }
+	  #sidebar-left #sidebar-nav a:link,
+	  #sidebar-left #sidebar-nav a:visited {  }
+	  #sidebar-left #sidebar-nav a:hover,
+	  #sidebar-left #sidebar-nav a:focus { text-decoration:underline; }
+	  #sidebar-left #sidebar-nav li:hover { background-color: #50B432; position: relative; }
+	  #sidebar-left .sidebar-main #sidebar-nav li:hover { background-color: #3366FF; position: relative; }
+	  #sidebar-left #sidebar-nav ul.sub-level { display: none; }
+	  #sidebar-left #sidebar-nav li:hover .sub-level { background-color: #666; border: #fff solid; border-width: 1px; display: block;  position: absolute; left: 175px; top: -2px; }
+	  #sidebar-left #sidebar-nav ul.sub-level li { float:left; width: 175px; }
+	  /*Seconda Level*/
+	  #sidebar-left #sidebar-nav .sub-level { background-color: #666; }
+	  /*Third Level*/
+	  #sidebar-left #sidebar-nav .sub-level .sub-level { background-color: #09C; }
+	  /*RESET STYLES*/
+	  #sidebar-left #sidebar-nav li:hover .sub-level .sub-level { display: none; }
+	  #sidebar-left #sidebar-nav .sub-level li:hover .sub-level { display: block; }
+
+#sidebar-right {  }
+    #sidebar-right-inner { margin: 0 0 0 20px; }

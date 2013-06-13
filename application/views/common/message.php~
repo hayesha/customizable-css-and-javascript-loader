@@ -1,0 +1,12 @@
+	<div id="msg">
+        <?php 	$msg=$this->session->flashdata('message'); 
+        			if (isset($msg) && $msg!=NULL)
+        			{  
+        				$message=$msg.'|'; 
+        			}
+         		if(isset($message) && $message!=NULL)
+         		{
+         			echo $message;
+         		}
+         ?>
+	</div> <!-- /#msg -->

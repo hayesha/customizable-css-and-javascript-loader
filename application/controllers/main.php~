@@ -1,0 +1,21 @@
+<?php include_once(APPPATH.'views/common/header.php');  ?>
+
+
+
+
+            </div> <!-- /#content-area-inner-->
+          </div> <!-- /#content-area-->
+          
+          <div id="content-bottom">
+            <div id="content-bottom-inner">
+              
+            </div> <!-- /#content-bottom-inner-->
+          </div> <!-- /#content-bottom-->
+          
+        </div> <!-- /#content-inner-->  
+      </div> <!-- /#content-->
+    </div> <!-- /#container-->
+    
+<?php include_once(APPPATH.'views/common/footer.php'); ?>
+</body>
+</html>

@@ -1,0 +1,71 @@
+/**
+  * Website Theme - Form Stylesheet
+  * @author: Prabhath Sirisena - http://vesess.com/sandbox/form_template.html
+  * @author: Hayesha Somarathne <hayeshais@gmail.com> - http://thoughtsandideas.wordpress.com/
+  * @version: 1.0
+  * @date: 21 - 05 - 2012
+  *  
+  * @license: LGPL - http://www.gnu.org/licenses/lgpl.html
+  *
+  */
+
+
+
+/* Form Layout Styles 
+   ------------------------------------------------------------------------------- */
+p.legend { margin-bottom: 1em; }
+p.legend em { color: #C00; font-style: normal; }
+
+div.form-container form { padding: 0 5px; background-color: transparent; }
+/* div.form-container form { display:block; } */
+div.form-container p { margin: 0.5em 0 0 0; }
+div.form-container form p { margin: 0; padding: 0; }
+div.form-container form p.legend { font-size: 85%; color: #333; }
+div.form-container form p.note { font-style: italic; margin-left: 17em; font-size: 80%; color: #666; }
+div.form-container form fieldset { margin:0 0 10px 0; padding: 5px 10px; border: #D3D3D3 1px solid; background-color: #F9F9FA; }
+div.form-container form legend { font-weight: normal; color: #666; }
+div.form-container form fieldset div.brake { padding: 0.3em; clear: both; }
+div.form-container form fieldset .form-item .location-wrap { display: inline; width: auto; }
+
+div.form-container form fieldset .parent { margin-top: 30px; }
+div.form-container form fieldset label{ position:relative; margin-right: 0; padding-right: 10px; width: 13em; display: block; float: left; color: #222; text-align: right;min-height:1em;top:0.25em;}
+div.form-container form fieldset label.errorfield,
+div.form-container form fieldset span.errorfield { color: #C00;  }
+div.form-container form fieldset span.error { color: #C00; font-size: 11px; }
+div.form-container form fieldset label.value { display:block;text-align:left;width:auto; }
+div.form-container form fieldset label .info { font-size: 85%; font-style: italic; color: #333; }
+div.form-container form fieldset .parent label { font-family: corbel,'gill sans mt pro','century gothic',sans-serif; font-weight: bold; }
+div.form-container form fieldset .captcha { float: left; display: block; }
+div.form-container form fieldset .captcha img { cursor: pointer; }
+div.form-container form fieldset .captcha .captcha-image { display: inline; }
+div.form-container form fieldset span.label-item { color: #333; font-size: 12px; font-style: italic; }
+div.form-container form fieldset .form-item div label { display: block; /* clear: both; */ }
+div.form-container form fieldset .child div label { text-align: left; }
+div.form-container form fieldset input.error { border-color: #C00; background-color: #FEF; }
+div.form-container form fieldset input:focus,
+div.form-container form fieldset input.error:focus, 
+div.form-container form fieldset textarea:focus { background-color: #F5F5F5; }
+div.form-container form fieldset input,
+div.form-container div.controlset input,
+div.form-container form fieldset textarea,
+div.form-container form fieldset select { border: 1px solid #DDD; padding: 6px 4px; color: #111; margin-right: 10px; }
+div.form-container form fieldset .input-item,
+div.form-container form fieldset .input-item div { float: left; }
+div.form-container form fieldset input:focus,
+div.form-container div.controlset input:focus,
+div.form-container form fieldset textarea:focus,
+div.form-container form fieldset select:focus { border-color: #C3C3C3; }
+div.form-container div.controlset label, 
+div.form-container div.controlset input { /* display: inline; float: none; */ display: block; float: left; }
+div.form-container div.controlset label { margin: 0; padding: 0; text-align: left; width: auto; }
+div.form-container div.controlset div { margin-left: 13em; }
+div.form-container div.buttonrow { margin-left: 195px; }
+div.form-container div.buttonrow input { cursor: pointer; padding: 6px; color: #222; }
+div.form-container div.buttonrow input:focus { cursor: pointer; }
+/* blank forms *//*
+div#formcontainer form#form_blank { padding: 5px; background-color: #fff; border:none; } */
+
+/* required field indicator */
+.req { color:red; font-weight:bold;  }
+.elm-width { width: 150px; }
+.elm-width-input { width: 165px; }
